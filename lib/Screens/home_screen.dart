@@ -12,7 +12,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<dynamic> sismos = [];
-  double magnitudMinima = 0.0; // Nuevo estado para el filtro
+  double magnitudMinima = 0.0;
 
   Future<void> llamadaAPI() async {
     final url = Uri.parse('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson');

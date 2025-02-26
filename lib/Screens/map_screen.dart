@@ -13,8 +13,8 @@ class MapScreen extends StatelessWidget {
       appBar: AppBar(title: const Text("Mapa de Sismos")),
       body: FlutterMap(
         options: const MapOptions(
-          initialCenter: LatLng(20.0, -100.0), // Ubicación inicial
-          initialZoom: 2.5, // Nivel de zoom
+          initialCenter: LatLng(20.0, -100.0),
+          initialZoom: 2.5,
         ),
         children: [
           TileLayer(
